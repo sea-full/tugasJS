@@ -1,0 +1,25 @@
+{
+  "name": "tps_registration",
+  "version": "1.0.0",
+  "description": "Aplikasi Registrasi TPS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --watch"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "nodemon"
+  ],
+  "author": "Saiful A",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  }
+}
